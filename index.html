@@ -11,15 +11,15 @@
 <body>
 
     <div>
+        <header>
+            <nav class="nav nav-pills flex-column flex-sm-row" role="tablist">
+                <a data-toggle="tab" class="flex-sm-fill text-sm-center nav-link active" href="#presentation"
+                    id="nav-pres">Présentation</a>
+                <a data-toggle="tab" class="flex-sm-fill text-sm-center nav-link" href="#regle"
+                    id="nav-regle">Règles</a>
+            </nav>
+        </header>
         <div class="container">
-            <header>
-                <nav class="nav nav-pills flex-column flex-sm-row" role="tablist">
-                    <a data-toggle="tab" class="flex-sm-fill text-sm-center nav-link active" href="#presentation"
-                        id="nav-pres">Présentation</a>
-                    <a data-toggle="tab" class="flex-sm-fill text-sm-center nav-link" href="#regle"
-                        id="nav-regle">Règles</a>
-                </nav>
-            </header>
 
             <div class="tab-content">
                 <div class="tab-pane fade show active" role="tabpanel" id="presentation">
@@ -50,28 +50,39 @@
                              La communication, la flexibilité et la coopération sont les maîtres mots.</p>
                         <h2>Règles</h2>
                         <h5>Règles basiques</h5>
-                        <p>Le jeu se joue par équipe de 4 personnes uniquement. Le maître du jeu aura le rôle de Product owner et ne doit pas être dans une équipe.<br />
+                        <p>Le jeu se joue par équipe de 4 personnes uniquement organisé par le maître du jeu aura
+                             le rôle de Product owner et ne doit pas être dans une équipe.<br />
                         Il est possible de jouer à 1 ou 2 équipes.<br />
-                        Une partie dure le temps d'un projet client complet. Il y aura donc 5 itérations (sprints) à réaliser.<br />
-                        A chaque itération, chaque équipe aura le droit à 10 points d'actions. Des bonus/malus peuvent affecter ces points.<br />
-                        Chaque joueur se verra attribué un rôle. Il existe 4 rôles. Les cartes compétences sont également divisé par rôles respectifs.</p>
+                        Une partie dure le temps d'un projet client complet. Il y aura 5 itérations (sprints) à réaliser.<br />
+                        A chaque itération, chaque équipe aura 10 points d'actions. Des bonus/malus peuvent affecter ces points.<br />
+                        Chaque joueur se verra attribué un rôle parmis les 4 rôles disponible. Les cartes compétences sont également divisé par rôles respectifs.</p>
                         <h5>Début de partie</h5>
                         <p>Le Game master doit être définie avant le début de la partie. Il devra être présent pour le bon fonctionnement du jeu.<br />
-                        Les équipes doivent être définie (si 2 équipes). Leur rôle seront ensuite affecté par choix ou tirage au sord. Le MJ peut également prendre la décision seul.<br />
+                        Les équipes doivent être définie (si 2 équipes). Leur rôle seront ensuite affecté par choix ou tirage au sord.
+                         Le MJ peut également prendre la décision seul.<br />
                         Le besoin client est alors définie pour l'ensemble des équipes et la partie peut débuter.</p>
                         <h5>Première itération</h5>
-                        Chaques joueurs pioche 5 cartes dans sa pioche respective. Puis l'équipe peut commencer à jouer.
+                        <p>Chaques joueurs récupère 5 cartes dans sa pioche respective. Puis l'équipe peut commencer à jouer.</p>
                         <h5>Autres itérations</h5>
-                        Il est impératif que chaques joueurs commence l'itération avec 5 cartes dans la main.<br />
-                        Une carte client, et une carte évènement par équipe est pioché. Elle influera le tour et les joueurs devront s'adapter.
-                        <h5>Game master</h5>
-                        Le Game master est l'élément le plus important de la partie.<br />
-                        En début de partie, il doit choisir le besoin client pour l'objectif final de la partie. Pour ça,
-                         soit il prend une carte exemple soit il calcul lui même en respectant les règles de calcul.<br />
+                        <ul class="list-group">
+                            <li class="list-group-item">Chaque joueurs doit posséder 5 cartes</li>
+                            <li class="list-group-item">Le MJ définie l'objectif client sur ce sprint</li>
+                            <li class="list-group-item">Le MJ pioche une carte client</li>
+                            <li class="list-group-item">Chaque équipe pioche une carte évênement</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
+
+        <footer>
+            <div class="container text-center">
+                <span class="text-muted">
+                    @
+                    <a href="">@Remanx</a>
+                </span>
+            </div>
+        </footer>
     </div>
     
 
