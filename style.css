@@ -1,18 +1,21 @@
-body {
-    background-color: white;
+* {
+    margin: 0;
+  }
+  html, body {
     height: 100%;
-}
-
-.page {
+  }
+  .page {
     min-height: 100%;
-    margin-bottom: 50px;
-}
-
-.page:after {
+    /* equal to footer height */
+    margin-bottom: -142px; 
+  }
+  .page:after {
     content: "";
     display: block;
-}
-
-footer, .page:after {
-    height: 50px;
-}
+  }
+  footer, .page:after {
+    height: 142px; 
+  }
+  footer {
+    background: orange;
+  }
