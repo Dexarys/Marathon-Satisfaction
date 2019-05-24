@@ -1,3 +1,18 @@
 body {
     background-color: white;
+    height: 100%;
+}
+
+.page {
+    min-height: 100%;
+    margin-bottom: 50px;
+}
+
+.page:after {
+    content: "";
+    display: block;
+}
+
+footer, .page:after {
+    height: 50px;
 }
