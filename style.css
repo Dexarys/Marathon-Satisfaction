@@ -29,3 +29,8 @@ footer a, footer i {
 footer a:hover {
     color: rgb(105, 71, 71);
 }
+
+nav a.active {
+    background-color: none;
+    color: orange;
+}
