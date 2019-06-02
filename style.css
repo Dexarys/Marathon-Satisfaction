@@ -5,11 +5,6 @@ html, body {
     height: 100%;
 }
 
-body {
-    background-color: rgb(57, 126, 67);
-    color: rgb(238, 238, 238);
-}
-
 .page {
     min-height: 100%;
     /* equal to footer height */
@@ -36,14 +31,20 @@ footer a:hover {
     color: rgb(105, 71, 71);
 }
 
-
-.nav-tabs a {
-    color: white;
-}
-
 .nav-tabs a:hover {
-    color: orange;
+    color: rgb(117, 59, 12);
 }
 .nav-item:hover {
     border: none;
+}
+
+#regle h2 {
+    margin: 25px 0 15px -20px;
+    color: rgb(53, 18, 18);
+}
+
+#regle h5 {
+    margin: 15px 0 10px 0;
+    color: rgb(80, 72, 72);
+    font-style: italic;
 }
